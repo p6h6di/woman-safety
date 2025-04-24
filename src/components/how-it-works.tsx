@@ -16,13 +16,13 @@ const HowItWorks = () => {
             whileHover={{ scale: 1 }}
             className="border p-4 flex flex-col rounded-xl gap-y-4 hover:shadow-md transition-shadow"
           >
-            {/* <Image
+            <Image
               src={step.icon}
               alt={step.alt}
-              width={48}
-              height={48}
-              className="size-12 object-cover rounded-full"
-            /> */}
+              width={64}
+              height={64}
+              className="size-16 object-cover rounded-full"
+            />
 
             <h2 className="text-lg font-bold">{step.title}</h2>
             <p className="text-sm text-[#788763]">{step.description}</p>

@@ -2,8 +2,6 @@ import RoutePlanner from "@/assets/img/planner.png";
 import SOS from "@/assets/img/sos.png";
 import CrimeReport from "@/assets/img/report.png";
 
-import { title } from "process";
-
 export const WOMAN_SAFETY_FEATURES = [
   {
     icon: RoutePlanner,
