@@ -33,7 +33,7 @@ export default function Incidents() {
   const fetchReports = async () => {
     try {
       setLoading(true);
-      const response = await fetch("/api/reports");
+      const response = await fetch("/api/location");
 
       if (!response.ok) {
         throw new Error("Failed to fetch reports");
